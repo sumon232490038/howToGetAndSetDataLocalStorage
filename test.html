@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test parent</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <main class="w-11/12 mx-auto">
+      <div class="w-11/12 mx-auto">
+        <input
+          id="input-1"
+          type="text"
+          class="border-[2px] border-red-700"
+          placeholder="select phone"
+        />
+        <input
+          class="border-[2px] border-red-700"
+          id="input-2"
+          placeholder="quantity"
+          type="text"
+        />
+        <button id="login-btn" class="btn" onclick="loadStorage()">
+          login
+        </button>
+        <div>
+          <ul id="lit"></ul>
+        </div>
+      </div>
+      <script src="test.js"></script>
+    </main>
+  </body>
+</html>
